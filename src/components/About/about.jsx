@@ -40,7 +40,7 @@ const About = () => {
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
                         <a href="#">Servicio en tiempo real <span aria-hidden="true">&rarr;</span></a>
-                        <a href="#">Mantenimiento 24/7 <span aria-hidden="true">&rarr;</span></a>
+                        <a href="#">Mantenimiento Full time <span aria-hidden="true">&rarr;</span></a>
                         <a href="#">Personalización <span aria-hidden="true">&rarr;</span></a>
                         <a href="#">Asesoramiento <span aria-hidden="true">&rarr;</span></a>
                     </div>
@@ -48,7 +48,7 @@ const About = () => {
                     <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="flex flex-col-reverse">
                             <dt className="text-base leading-7 text-gray-300">Páginas creadas</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">+35</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">+255</dd>
                         </div>
                         <div className="flex flex-col-reverse">
                             <dt className="text-base leading-7 text-gray-300">Experiencia</dt>
@@ -56,7 +56,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col-reverse">
                             <dt className="text-base leading-7 text-gray-300">Horario de servicio</dt>
-                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">24/7</dd>
+                            <dd className="text-2xl font-bold leading-9 tracking-tight text-white">Full Time</dd>
                         </div>
                     </dl>
 

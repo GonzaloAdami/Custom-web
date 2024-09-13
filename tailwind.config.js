@@ -8,6 +8,12 @@ module.exports = {
         '500': '500',
         '100': '100',
       },
+      paddingLeft: {
+        'custom-pl': '18rem',
+      },
+      marginTop: {
+        '10' : '10rem'
+      }
     },
   },
   plugins: [],

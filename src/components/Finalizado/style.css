@@ -1,0 +1,54 @@
+/* From Uiverse.io by adamgiebl */ 
+.button-finalizado {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #0974f1;
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    width: 7em;
+    
+  }
+  
+  .button-finalizado svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .button-finalizado span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .button-finalizado:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  .button-finalizado:hover span {
+    transform: translateX(7px);
+  }
+  
+  .finalizado{
+    
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        width: 80%;
+        height: auto;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.203);
+        border-radius: 20px;
+        padding: 2em;
+        background-color: rgb(242, 245, 245);
+       
+        z-index: 1000;
+  }

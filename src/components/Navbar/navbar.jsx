@@ -1,6 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = (hash) => {
+    // Cambia la URL a "/"
+    navigate('/');
+    // Desplázate a la sección específica
+    window.location.hash = hash;
+  };
+
   return (
     <nav className="bg-gray-800 absolute z-1000 w-screen">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -12,11 +22,28 @@ const Navbar = () => {
             </div>
             
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
-                
-                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Inicio</a>
-                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Plan</a>
-                <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contacto</a>
+              <div className="flex space-x-4">       
+                <a
+                  href="#about"
+                  onClick={() => handleNavigate('#about')}
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                >
+                  Inicio
+                </a>
+                <a
+                  href="#products"
+                  onClick={() => handleNavigate('#products')}
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                >
+                  Plan
+                </a>
+                <a
+                  href="#contact"
+                  onClick={() => handleNavigate('#contact')}
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                >
+                  Contacto
+                </a>
               </div>
             </div>
           </div>
@@ -32,7 +59,7 @@ const Navbar = () => {
               <button type="button" className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span className="absolute -inset-1.5"></span>
                 <span className="sr-only">Open user menu</span>
-                <img className="h-8 w-8 rounded-full" src="https://res-console.cloudinary.com/dt6otshxt/thumbnails/v1/image/upload/v1726121242/cHJvZmlsZV9naDR0cmc=/preview" alt="" />
+                <img className="h-8 w-8 rounded-full" src="https://res.cloudinary.com/dt6otshxt/image/upload/v1726227955/2be765f4-9ced-4e42-b817-303dd563c6e0_tevphm.jpg" alt="User avatar" />
               </button>
             </div>
           </div>
