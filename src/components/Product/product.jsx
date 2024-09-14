@@ -56,7 +56,7 @@ const Product = () => {
                             <div className="mx-auto max-w-xs px-8">
                                 <p className="text-base font-semibold text-gray-600">Paga solo una vez y es tuyo para siempre.</p>
                                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                    <span className="text-5xl font-bold tracking-tight text-gray-900">$299.99</span>
+                                    <span className="text-5xl font-bold tracking-tight text-gray-900">$399.99</span>
                                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
                                 </p>
                                 <button
@@ -124,7 +124,7 @@ const Product = () => {
                             <div className="mx-auto max-w-xs px-8">
                                 <p className="text-base font-semibold text-gray-600">Paga solo una vez y es tuyo para siempre.</p>
                                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                                    <span className="text-5xl font-bold tracking-tight text-gray-900">$499.99</span>
+                                    <span className="text-5xl font-bold tracking-tight text-gray-900">$699.99</span>
                                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">USD</span>
                                 </p>
                                 <button
