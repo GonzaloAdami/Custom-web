@@ -279,7 +279,7 @@ const Card = () => {
                                         <div className="mt-1">
                                             <p>
                                                 <div className='price'>
-                                                    <span className="text-5xl font-light tracking-tight text-blue">
+                                                    <span className="text-2xl font-light tracking-tight text-blue">
                                                         $699.99
                                                     </span>
                                                     <span className="text-base font-medium text-blue"> /USD </span>
@@ -308,7 +308,7 @@ const Card = () => {
                                         <div className="mt-1">
                                             <p>
                                                 <div className='price'>
-                                                    <span className="text-5xl font-light tracking-tight text-blue">
+                                                    <span className="text-2xl font-light tracking-tight text-blue">
                                                         $299.99
                                                     </span>
                                                     <span className="text-base font-medium text-blue"> /USD </span>
